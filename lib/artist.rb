@@ -6,7 +6,7 @@ class Artist
     Song.all.length
   end
 
-  def initialize(name)
+  def initialize(name=nil)
     @name = name
     @songs = []
   end
